@@ -1,17 +1,16 @@
 import React from "react";
-import { render } from "react-dom"
-import SearchParams from "./searchParams"
+import { render } from "react-dom";
+import SearchParams from "./searchParams";
 
 const App = () => {
-
-return (
+  return (
     <React.StrictMode>
-        <div>
-            <h1 id="awesome">Adopt Me!</h1>
-            <SearchParams />
-        </div>
+      <div>
+        <h1 id="awesome">Adopt Me!</h1>
+        <SearchParams />
+      </div>
     </React.StrictMode>
-)
+  );
 };
 
 render(<App />, document.getElementById("root"));
